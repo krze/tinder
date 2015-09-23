@@ -13,6 +13,8 @@
 		64F537191BB2BA6400F486AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F537181BB2BA6400F486AF /* Images.xcassets */; };
 		64F5371C1BB2BA6400F486AF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64F5371A1BB2BA6400F486AF /* LaunchScreen.xib */; };
 		64F537281BB2BA6400F486AF /* tinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F537271BB2BA6400F486AF /* tinderTests.swift */; };
+		64F537321BB2C0C800F486AF /* ProfileImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64F537311BB2C0C800F486AF /* ProfileImageView.xib */; };
+		64F537341BB2C10000F486AF /* ProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F537331BB2C10000F486AF /* ProfileImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		64F537211BB2BA6400F486AF /* tinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64F537261BB2BA6400F486AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64F537271BB2BA6400F486AF /* tinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tinderTests.swift; sourceTree = "<group>"; };
+		64F537311BB2C0C800F486AF /* ProfileImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileImageView.xib; sourceTree = "<group>"; };
+		64F537331BB2C10000F486AF /* ProfileImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,7 @@
 				64F537111BB2BA6400F486AF /* AppDelegate.swift */,
 				64F537131BB2BA6400F486AF /* ViewController.swift */,
 				64F537151BB2BA6400F486AF /* Main.storyboard */,
+				64F537351BB2C10A00F486AF /* Views */,
 				64F537181BB2BA6400F486AF /* Images.xcassets */,
 				64F5371A1BB2BA6400F486AF /* LaunchScreen.xib */,
 				64F5370F1BB2BA6400F486AF /* Supporting Files */,
@@ -110,6 +115,15 @@
 				64F537261BB2BA6400F486AF /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64F537351BB2C10A00F486AF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				64F537331BB2C10000F486AF /* ProfileImageView.swift */,
+				64F537311BB2C0C800F486AF /* ProfileImageView.xib */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +206,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64F537321BB2C0C800F486AF /* ProfileImageView.xib in Resources */,
 				64F537171BB2BA6400F486AF /* Main.storyboard in Resources */,
 				64F5371C1BB2BA6400F486AF /* LaunchScreen.xib in Resources */,
 				64F537191BB2BA6400F486AF /* Images.xcassets in Resources */,
@@ -212,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64F537341BB2C10000F486AF /* ProfileImageView.swift in Sources */,
 				64F537141BB2BA6400F486AF /* ViewController.swift in Sources */,
 				64F537121BB2BA6400F486AF /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +425,7 @@
 				64F5372D1BB2BA6400F486AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64F5372E1BB2BA6400F486AF /* Build configuration list for PBXNativeTarget "tinderTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +434,7 @@
 				64F537301BB2BA6400F486AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
